@@ -1,0 +1,24 @@
+#
+# comment lines (skip them)
+#
+States:
+0,S
+1
+2,F
+End
+#
+# comment letter (skip them)
+#
+Sigma:
+a
+b
+End
+#
+# comment lines (skip them)
+#
+Transitions:
+0,b,0
+0,a,0
+0,a,1
+1,b,2
+End
